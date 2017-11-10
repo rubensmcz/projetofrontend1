@@ -1,0 +1,9 @@
+Editor: Sublime
+Pasta Projeto: C:\wamp64\www\projetofrontend1
+
+Comandos Git:
+
+git init
+git status
+git add . 
+git commit -m "comentario"
