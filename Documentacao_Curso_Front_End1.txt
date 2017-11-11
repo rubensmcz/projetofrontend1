@@ -16,3 +16,5 @@ Ferramentas:
 Git Bash (Gerenciar copia do projeto)
 
 Github   (Visualizar projeto, arquivos)
+
+Sublime (Editor para arquivo)
