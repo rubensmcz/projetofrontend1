@@ -18,3 +18,9 @@ Git Bash (Gerenciar copia do projeto)
 Github   (Visualizar projeto, arquivos)
 
 Sublime (Editor para arquivo)
+
+Comentarios:
+
+TAG´s: DIV e SPAN Não tem relevancia para o navegador
+       ARTICLE são utilizadas para informações externas
+       SECTION Pode ser utilizada internas e/ou externas
