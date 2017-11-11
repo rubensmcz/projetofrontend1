@@ -9,3 +9,10 @@ git add .
 git commit -m "comentario"
 git push origin master
 git clone https://github.com/rubensmcz/projetofrontend1.git
+
+
+Ferramentas:
+
+Git Bash (Gerenciar copia do projeto)
+
+Github   (Visualizar projeto, arquivos)
