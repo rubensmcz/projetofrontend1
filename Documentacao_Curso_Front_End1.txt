@@ -19,8 +19,17 @@ Github   (Visualizar projeto, arquivos)
 
 Sublime (Editor para arquivo)
 
+Wampserver64 (Servidor Apache)
+
 Comentarios:
 
 TAG´s: DIV e SPAN Não tem relevancia para o navegador
        ARTICLE são utilizadas para informações externas
        SECTION Pode ser utilizada internas e/ou externas
+
+Classe e referenciada pelo . (ponto)
+Id e referenciada pelo # (jogo da velha)
+
+Comandos:
+width : Largura
+heigth: Altura
