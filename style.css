@@ -11,15 +11,15 @@ html,
 body {
 	width: 100%;
 	height: 100%;
+	background-color: #F2F2F2;
 }
 
 
 /*
-Informar para as Classes Cabecalho, Miolo e Rodape a altura será utilizada em 100% 
+Informar para as Classes Cabecalho, e Rodape a altura será utilizada em 100% 
 */
 
 .Cabecalho,        
-.Miolo,
 .Rodape {
 		width: 100%;		
 }
@@ -30,14 +30,26 @@ Classe para configurar o cabeçalho da tela
 .Cabecalho {     
 				height: 60px;
 				background-color: #464A4F;
+				text-align: center;
 	} 
+
+
+.Cabecalho h1 {     
+				color: white;
+				font: normal 16px sans-serif
+				text-transform: uppercase;
+				margin: 10px;	
+				padding: 10px;		
+	} 
+
 
 /*
 Classe para configurar o miolo da tela
 */
 .Miolo{			  
-				height: calc(100% - 180px);   
-				background-color: yellow;				
+				height: calc(100% - 180px);
+				width: 90%;
+				margin: 0 auto;
 	}	 
 
 /*
@@ -45,15 +57,28 @@ Classe para configurar o rodape da tela
 */
 .Rodape{		  	
 				height: 120px;
-				background-color: red;
+				background-color: #EEE;
 	}    
 
 /*
 Classe para listar as informações externas
 */
-.Post_List {	   
-
+.Post_List {	
+	            float: left;
+	            width:  60%;
+	  			height: 90%;				
+				background-color: blue;
+				margin: 5% 0;
+				
 	}   
+
+.Pai_Autores_Imagens {
+	            float: right;
+	 			width:  30%;
+	  			height: 90%;				
+				background-color: red;
+				margin: 5% 0;
+}
 
 /*
 Classe para listar os autores
