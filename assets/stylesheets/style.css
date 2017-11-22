@@ -47,9 +47,13 @@ Classe para configurar o cabeçalho da tela
 Classe para configurar o miolo da tela
 */
 .Miolo{			  
+				display: flex;
+				flex-direction: row;
 				height: calc(100% - 180px);
 				width: 90%;
 				margin: 0 auto;
+				align-items: center;
+
 	}	 
 
 /*
@@ -67,29 +71,35 @@ Classe para listar as informações externas
 	            float: left;
 	            width:  60%;
 	  			height: 90%;				
-				background-color: blue;
-				margin: 5% 0;
-				
+				overflow: auto;				
 	}   
 
 .Pai_Autores_Imagens {
 	            float: right;
 	 			width:  30%;
 	  			height: 90%;				
-				background-color: red;
-				margin: 5% 0;
+				margin-left: 10%;
+				position: relative;				
 }
 
 /*
 Classe para listar os autores
 */
 .Autores_List {	  
-
+          position: absolute;
+          top: 0;
+          width: 100%;
+          height: 45%;
 	} 
 
 /*
 Classe para listar as imagens
 */
 .Imagens_List {	 
+	     position: absolute;
+	     bottom: 0;
+	     width: 100%;
+	     height: 45%;
 
 	}   
+
