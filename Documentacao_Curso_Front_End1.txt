@@ -33,4 +33,17 @@ Id e referenciada pelo # (jogo da velha)
 Comandos:
 width : Largura
 heigth: Altura
+border: Borda
+top: Topo
+bottom: Final
 .
+
+Comandos
+
+Post: Usar para dados autenticação
+Get:  Usar para URL aberta
+Put: 
+Delete
+
+200 - Ok
+400 - Não Existe
