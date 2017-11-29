@@ -49,4 +49,52 @@
 
 </body>
 
+	<script>
+	   console.log("Teste Console");
+	   //window.alert("Quer apagar essa pagina ?");
+	   let numero1 = 10;
+	   let numero2 = 'Numero2';
+	   console.log(typeof numero2);
+	   function primeira_funcao ( ) {
+	   	console.log('Primeira Função')
+
+		}
+	   
+	   function testandoArvoreDOM() {
+	   		let element = document.documentElement.lastChild;
+	   		console.log ('Eu sou o node A : ' + element.nodeName);
+
+			let outroElement = document.getElementsByTagName('h1')[0];
+	   		console.log ('Eu sou o node B : ' + outroElement.nodeValue);
+
+			let filho = outroElement.fisrtChild;
+	   		console.log ('Eu sou o node C : ' + filho.nodeValue);
+	   }	
+ 
+       function somavalores(valor1, valor2) {
+       	    let soma = valor1 + valor2;
+       	    console.log('O Resultado da Soma é: ' + soma );      	    
+
+       }
+
+       function subtrairvalores(valor1, valor2) {
+       	    let subtrair = valor1 - valor2;
+       	    console.log('O Resultado da Subtração é: ' + subtrair );      	    
+
+       }
+
+       function dividirvalores(valor1, valor2) {
+       	    let dividir = valor1 / valor2;
+       	    console.log('O Resultado da Divisão é: ' + dividir );      	    
+
+       }
+
+       function multiplicarvalores(valor1, valor2) {
+       	    let multiplicar = valor1 * valor2;
+       	    console.log('O Resultado da Multiplicação é: ' + multiplicar );      	    
+
+       }
+    	   
+	</script>
+
 </html>
