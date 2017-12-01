@@ -45,5 +45,17 @@ Get:  Usar para URL aberta
 Put: 
 Delete
 
+Operadores JS:
+
+Igual			 : ==
+Igual boa pratica: ====
+Diferente		 : !=
+Maior 			 : >
+Maior Igual		 : >=
+Menor			 : <
+Menor Igual		 : <=
+Ou 				 : ||
+And				 : & 	 
+
 200 - Ok
 400 - Não Existe

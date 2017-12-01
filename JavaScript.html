@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<script>
+	   
+	   function testandoArvoreDOM() {
+	   		let element = document.documentElement.lastChild;
+	   		console.log ('Eu sou o node A : ' + element.nodeName);
+
+			let outroElement = document.getElementsByTagName('h1')[0];
+	   		console.log ('Eu sou o node B : ' + outroElement.nodeValue);
+
+			let filho = outroElement.fisrtChild;
+	   		console.log ('Eu sou o node C : ' + filho.nodeValue);
+	   }	
+ 
+       function somavalores(valor1, valor2) {
+       	let val1 = valor1;
+       	let val2 = valor2;
+
+	       	console.log("Valor 1 é: " + typeof val1);      	   
+	       	if (typeof val1 === 'number') { 
+	       		console.log('Informação valida');  
+	       	} else {
+	       		console.log('Informação invalida');
+	       	}
+
+	       	console.log("Valor 2 é: " + typeof val2);      	   
+	       	if (typeof val2 === 'number') { 
+	       		console.log('Informação valida');  
+	       	} else {
+	       		console.log('Informação invalida');
+	       	}
+	       	
+		    let soma = valor1 + valor2;
+
+	       	if (typeof val1 === 'number' & typeof val2 === 'number')  { 
+	       		console.log('O Resultado da Soma é: ' + soma);  
+	       	} 
+       }
+
+       	     
+       function subtrairvalores(valor1, valor2) {
+       	let val1 = valor1;
+       	let val2 = valor2;
+
+	       	console.log("Valor 1 é: " + typeof val1);      	   
+	       	if (typeof val1 === 'number') { 
+	       		console.log('Informação valida');  
+	       	} else {
+	       		console.log('Informação invalida');
+	       	}
+
+	       	console.log("Valor 2 é: " + typeof val2);      	   
+	       	if (typeof val2 === 'number') { 
+	       		console.log('Informação valida');  
+	       	} else {
+	       		console.log('Informação invalida');
+	       	}
+	       	
+		    let subtrair = valor1 - valor2;
+
+	       	if (typeof val1 === 'number' & typeof val2 === 'number')  { 
+	       		console.log('O Resultado da Subtração é: ' + subtrair);  
+	       	} 
+       }
+
+       function dividirvalores(valor1, valor2) {
+       	let val1 = valor1;
+       	let val2 = valor2;
+
+ 	       	console.log("Valor 1 é: " + typeof val1);      	   
+	       	if (typeof val1 === 'number') { 
+	       		console.log('Informação valida');  
+	       	} else {
+	       		console.log('Informação invalida');
+	       	}
+
+	       	console.log("Valor 2 é: " + typeof val2);      	   
+	       	if (typeof val2 === 'number') { 
+	       		console.log('Informação valida');  
+	       	} else {
+	       		console.log('Informação invalida');
+	       	}
+	       	
+		    let dividir = valor1 / valor2;
+
+	       	if (typeof val1 === 'number' & typeof val2 === 'number')  { 
+	       		console.log('O Resultado da Divisão é: ' + dividir);  
+	       	} 
+       }
+
+       function multiplicarvalores(valor1, valor2) {
+		let val1 = valor1;
+       	let val2 = valor2;
+
+ 	       	console.log("Valor 1 é: " + typeof val1);      	   
+	       	if (typeof val1 === 'number') { 
+	       		console.log('Informação valida');  
+	       	} else {
+	       		console.log('Informação invalida');
+	       	}
+
+	       	console.log("Valor 2 é: " + typeof val2);      	   
+	       	if (typeof val2 === 'number') { 
+	       		console.log('Informação valida');  
+	       	} else {
+	       		console.log('Informação invalida');
+	       	}
+	       	
+		    let multiplicar = valor1 * valor2;
+
+	       	if (typeof val1 === 'number' & typeof val2 === 'number')  { 
+	       		console.log('O Resultado da Multiplicação é: ' + multiplicar);  
+	       	} 
+       }
+    	   
+	</script>
+
+</body>
+</html>
