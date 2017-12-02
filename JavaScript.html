@@ -21,8 +21,9 @@
        function somavalores(valor1, valor2) {
        	let val1 = valor1;
        	let val2 = valor2;
-
-	       	console.log("Valor 1 é: " + typeof val1);      	   
+  		
+  		/*  
+ 	       	console.log("Valor 1 é: " + typeof val1);      	   
 	       	if (typeof val1 === 'number') { 
 	       		console.log('Informação valida');  
 	       	} else {
@@ -40,14 +41,25 @@
 
 	       	if (typeof val1 === 'number' & typeof val2 === 'number')  { 
 	       		console.log('O Resultado da Soma é: ' + soma);  
-	       	} 
+	       	}
+		*/
+       	           	
+		    let soma = valor1 + valor2;
+	       	if (typeof val1 === 'number' & typeof val2 === 'number')  { 
+	       		console.log('O Resultado da Soma é: ' + soma);  
+	       	} else {
+	       		console.log('Valor 1 ou Valor 2 informado errado');
+	       	}
+
+
+
        }
 
        	     
        function subtrairvalores(valor1, valor2) {
        	let val1 = valor1;
        	let val2 = valor2;
-
+       	/*
 	       	console.log("Valor 1 é: " + typeof val1);      	   
 	       	if (typeof val1 === 'number') { 
 	       		console.log('Informação valida');  
@@ -61,18 +73,23 @@
 	       	} else {
 	       		console.log('Informação invalida');
 	       	}
-	       	
-		    let subtrair = valor1 - valor2;
+	    */
 
+		    let subtrair = valor1 - valor2;
 	       	if (typeof val1 === 'number' & typeof val2 === 'number')  { 
 	       		console.log('O Resultado da Subtração é: ' + subtrair);  
-	       	} 
+	       	} else {
+	       		console.log('Valor 1 ou Valor 2 informado errado');
+	       	}
+
+
        }
 
        function dividirvalores(valor1, valor2) {
        	let val1 = valor1;
        	let val2 = valor2;
 
+       	/*
  	       	console.log("Valor 1 é: " + typeof val1);      	   
 	       	if (typeof val1 === 'number') { 
 	       		console.log('Informação valida');  
@@ -91,13 +108,23 @@
 
 	       	if (typeof val1 === 'number' & typeof val2 === 'number')  { 
 	       		console.log('O Resultado da Divisão é: ' + dividir);  
-	       	} 
+	       	}
+	    */
+	    	let dividir = valor1 / valor2;
+	       	if (typeof val1 === 'number' & typeof val2 === 'number')  { 
+	       		console.log('O Resultado da Divisão é: ' + dividir);  
+	       	} else {
+	       		console.log('Valor 1 ou Valor 2 informado errado');
+	       	}
+
+
        }
 
        function multiplicarvalores(valor1, valor2) {
 		let val1 = valor1;
        	let val2 = valor2;
 
+ 	    /*
  	       	console.log("Valor 1 é: " + typeof val1);      	   
 	       	if (typeof val1 === 'number') { 
 	       		console.log('Informação valida');  
@@ -116,7 +143,16 @@
 
 	       	if (typeof val1 === 'number' & typeof val2 === 'number')  { 
 	       		console.log('O Resultado da Multiplicação é: ' + multiplicar);  
-	       	} 
+	       	}
+
+	    */
+	    	let multiplicar = valor1 * valor2;
+	       	if (typeof val1 === 'number' & typeof val2 === 'number')  { 
+	       		console.log('O Resultado da Multiplicação é: ' + multiplicar);  
+	       	} else {
+	       		console.log('Valor 1 ou Valor 2 informado errado');
+	       	}
+
        }
     	   
 	</script>
