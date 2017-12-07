@@ -21,6 +21,8 @@ Sublime (Editor para arquivo)
 
 Wampserver64 (Servidor Apache)
 
+jquery (Biblioteca)
+
 Comentarios:
 
 TAG´s: DIV e SPAN Não tem relevancia para o navegador
