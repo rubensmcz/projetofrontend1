@@ -1,0 +1,18 @@
+.artigo {
+	    background-color: #FFF;
+		border: 1px solid #F7F7F7;
+		box-shadow: 0 3px 12px rgba(0,0,0,0.10);
+}
+
+.artigo_titulo {
+				color: orange;
+				text-transform: unset;
+				padding: 1rem;
+}
+
+.artigo_paragrafo {
+				color: gray;
+				text-transform: unset;
+				padding: 1rem;
+				text-align: justify;
+}

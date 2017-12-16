@@ -6,6 +6,6 @@
 
 .card_titulo {
 				color: #999;
-				text-transform: uppercase;
+				text-transform: unset;
 				padding: 1rem;
 }
