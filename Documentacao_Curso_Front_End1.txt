@@ -3,6 +3,8 @@ vitoleandro@gmail.com
 Editor: Sublime
 Pasta Projeto: C:\wamp64\www\projetofrontend1
 
+Site de pesquisa: https://www.w3C
+
 Comandos Git:
 
 git init
